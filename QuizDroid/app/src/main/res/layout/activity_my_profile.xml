@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/layout"
+    tools:context="nl0882275jaar2kw4quizdroid.hr.cmi.httpstudent.quizdroid.MyProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_name"
+        android:id="@+id/field_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_name"
+        android:layout_above="@+id/field_age"
+        android:layout_alignStart="@+id/login_age" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:id="@+id/field_age"
+        android:layout_below="@+id/field_name"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_age"
+        android:layout_below="@+id/login_name"
+        android:layout_alignStart="@+id/login_gender" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:id="@+id/field_gender"
+        android:layout_below="@+id/field_age"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_gender"
+        android:layout_below="@+id/login_age"
+        android:layout_toEndOf="@+id/field_gender"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/highscore"
+        android:id="@+id/field_highscore"
+        android:layout_below="@+id/field_gender"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/login_highscore"
+        android:layout_below="@+id/field_highscore"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/field_highscore"
+        android:gravity="center"
+        android:textSize="200sp" />
+
+</RelativeLayout>

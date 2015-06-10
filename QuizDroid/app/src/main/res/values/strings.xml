@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">QuizDroid</string>
+
+    <string name="button_login">Inloggen</string>
+    <string name="button_create_account">Ik ben nieuw</string>
+    <string name="button_register">Registreren</string>
+    <string name="hint_name">Naam</string>
+    <string name="radio_male">Man</string>
+    <string name="radio_female">Vrouw</string>
+    <string name="hint_age">Hoe oud ben je?</string>
+    <string name="password">Wachtwoord</string>
+    <string name="confirm_password">Herhaal wachtwoord</string>
+    <string name="age">Leeftijd</string>
+    <string name="gender">Geslacht</string>
+    <string name="highscore">Highscore</string>
+    <string name="answer">Antwoorden</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="play_sound">Geluid afspelen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_activity_create_account">Registreren op QuizDroid</string>
+    <string name="title_activity_login_account">Inloggen</string>
+    <string name="title_activity_my_profile">Mijn Profiel</string>
+    <string name="title_activity_quiz">QuizDroid</string>
+    <string name="title_activity_question">Meerkeuzevraag</string>
+    <string name="title_activity_question_sound">Meerkeuzevraag met Geluid</string>
+    <string name="title_activity_result">Uw Resultaat</string>
+</resources>
